@@ -123,27 +123,27 @@ export default function Home() {
                     </a>
                   </li>
                   <li className="group">
-                    <a href="#home" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
+                    <a href="#about" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
                       Tentang Saya
                     </a>
                   </li>
                   <li className="group">
-                    <a href="#home" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
+                    <a href="#portfolio" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
                       Portfolio
                     </a>
                   </li>
                   <li className="group">
-                    <a href="#home" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
+                    <a href="#clients" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
                       Clients
                     </a>
                   </li>
                   <li className="group">
-                    <a href="#home" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
+                    <a href="#blog" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
                       Blog
                     </a>
                   </li>
                   <li className="group">
-                    <a href="#home" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
+                    <a href="#contact" className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
                       Contact
                     </a>
                   </li>
