@@ -95,9 +95,16 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Portfolio Tailwind CSS</title>
-        <meta name="description" content="Portfolio Tailwind CSS" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Hamzah Al Farisi | Front End Engineer</title>
+        <meta name="description" content="Hamzah Al Farisi is A Frontend Engineer with 2 years experience. I am currently working as a Web Developer at PT GDC Multi Sarana. I specialize in JavaScript especially in Vanilla JS and have professional experience working with Django and Flask Python Framework. Currently, I am highly passionate about learning javascript UI libraries such a ReactJS, and CSS Preprocessor like SASS/SCSS." />
+        <meta name="keywords" content="HTML, CSS, JavaScript, Frontend, Front End, Web Developer, React, Python, Next, SASS, Tailwind CSS, Bootstrap, Faris, Hamzah, Al Farisi, Hamzah Al Farisi, Alfarisi, Programmer, Developer" />
+        <meta name="author" content="Hamzah Al Farisi" />
+        <meta property="og:title" content="Frontend Engineer" />
+        <meta property="og:description" content="Frontend Engineer, React, Flask, Javascript, SASS, HTML, CSS, Python" />
+        <meta property="og:url" content="https://wowalfarisi.com/" />
+        <meta property="og:type" content="website" />
+
+          <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header className="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
@@ -189,8 +196,8 @@ export default function Home() {
           <div className="flex flex-wrap">
             <div className="w-full px-4 mb-10 lg:w-1/2">
               <h4 className="font-bold uppercase text-primary text-lg">Tentang Saya</h4>
-              <h2 className="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Yuk, belajar web programming di WPU!</h2>
-              <p className="font-medium text-base text-secondary max-w-xl lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quae. Id reprehenderit optio aut architecto, tempore quod praesentium aliquid sit!</p>
+              <h2 className="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Frontend Engineer</h2>
+              <p className="font-medium text-base text-secondary max-w-xl lg:text-lg">A Frontend Engineer with 2 years experience. I am currently working as a Web Developer at PT GDC Multi Sarana. I specialize in JavaScript especially in Vanilla JS and have professional experience working with Django and Flask Python Framework. Currently, I am highly passionate about learning javascript UI libraries such a ReactJS, and CSS Preprocessor like SASS/SCSS.</p>
             </div>
             <div className="w-full px-4 lg:w-1/2">
               <h3 className="font-semibold text-dark text-2xl mb-4 lg:pt-10">Mari berteman</h3>
