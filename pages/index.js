@@ -126,15 +126,15 @@ export default function Home() {
 
       <header className="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 pt-4">
         <div className="container">
-          <div className="flex items-center justify-between relative">
-            <div className="px-4">
+          <div className="flex items-center justify-between relative pb-2">
+            <div className="lg:px-4">
               <div className="h-100 w-100">
                 <Link href="/">
                   <a>
                     <Image
                       src={`/farisdev-logo-dark.png`}
                       alt="Hamzah Al Farisi"
-                      className="w-full h-100 m-auto"
+                      className="w-3/4 h-100 m-auto lg:h-100 lg:w-full"
                       width={150}
                       height={100}
                     />
@@ -208,7 +208,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-center">
             <div className="w-full self-center px-4 lg:w-full">
               <h1 className="text-base font-semibold text-primary text-center lg:text-start md:text-xl">
-                Hell Everyone 👋, I'm
+                Hello Everyone 👋, I'm
                 <span className="block font-bold text-dark text-5xl mt-1 text-center lg:text-start lg:text-9xl">
                   Hamzah Al Farisi
                 </span>
