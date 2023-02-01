@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}", "./public/**/*.html"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./public/**/*.html"
+  ],
   theme: {
     container: {
       center: true,
@@ -8,7 +12,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#14b8a6",
+        primary: "#1e293b",
         secondary: "#64748b",
         dark: "#0f172a"
       },
