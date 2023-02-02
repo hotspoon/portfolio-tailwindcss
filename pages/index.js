@@ -143,6 +143,8 @@ export default function Home() {
             <div className="flex items-center px-4">
               <Link href="#">
                 <a
+                  aria-label="navigasi"
+                  title="navigasi"
                   id="hamburger"
                   name="hamburger"
                   className={`block absolute right-4 lg:hidden ${
@@ -248,9 +250,9 @@ export default function Home() {
           <div className="flex flex-wrap">
             <div className="w-full px-4 mb-10 lg:w-1/2">
               <h2 className="font-bold uppercase text-primary text-lg">About me</h2>
-              <h4 className="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
+              <h3 className="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
                 Frontend Engineer
-              </h4>
+              </h3>
               <p className="font-medium text-base text-secondary max-w-xl lg:text-lg">
                 As a skilled front-end engineer with 2 years of experience, I am excited to bring my
                 expertise in technologies such as TypeScript, React, Next.js, SQL, Flask, WordPress,
@@ -372,6 +374,7 @@ export default function Home() {
                             width={600}
                             height={300}
                             quality={100}
+                            priority
                           />
                         </a>
                       </Link>
