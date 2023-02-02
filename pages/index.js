@@ -127,20 +127,18 @@ export default function Home() {
       <header className="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 pt-4">
         <div className="container">
           <div className="flex items-center justify-between relative pb-2">
-            <div className="lg:px-4">
-              <div className="h-100 w-100">
-                <Link href="/">
-                  <a>
-                    <Image
-                      src={`/farisdev-logo-dark.png`}
-                      alt="Hamzah Al Farisi"
-                      className="w-3/4 h-100 m-auto lg:h-100 lg:w-full"
-                      width={150}
-                      height={100}
-                    />
-                  </a>
-                </Link>
-              </div>
+            <div className="h-100 w-100">
+              <Link href="/">
+                <a>
+                  <Image
+                    src={`/farisdev-logo-dark.png`}
+                    alt="Hamzah Al Farisi"
+                    className="w-1/2 h-100 m-auto lg:h-100 lg:w-1/2"
+                    width={150}
+                    height={100}
+                  />
+                </a>
+              </Link>
             </div>
             <div className="flex items-center px-4">
               <Link href="#">
