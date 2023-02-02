@@ -369,7 +369,7 @@ export default function Home() {
                           <Image
                             src={el.url}
                             alt={el.title}
-                            className="h-[270px] w-full object-cover"
+                            className="h-full lg:h-[280px] w-full object-cover"
                             placeholder={el.title}
                             width={600}
                             height={300}
