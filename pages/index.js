@@ -127,15 +127,17 @@ export default function Home() {
       <header className="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 pt-4">
         <div className="container">
           <div className="flex items-center justify-between relative pb-2">
-            <div className="h-100 w-100">
+            <div className="h-auto w-1/3 md:w-[6rem] lg:w-[9rem]">
               <Link href="/">
                 <a>
                   <Image
                     src={`/farisdev-logo-dark.png`}
                     alt="Hamzah Al Farisi"
-                    className="w-1/2 h-100 m-auto lg:h-100 lg:w-1/2"
-                    width={150}
-                    height={100}
+                    className="w-auto h-auto object-contain"
+                    placeholder="blur"
+                    blurDataURL={`/farisdev-logo-dark.png`}
+                    width={288}
+                    height={500}
                   />
                 </a>
               </Link>
@@ -365,15 +367,16 @@ export default function Home() {
                   <div className="project-img">
                     <div className="rounded-md shadow-md overflow-hidden">
                       <Link href={el.link} key={el.id}>
-                        <a>
+                        <a rel="preload">
                           <Image
                             src={el.url}
                             alt={el.title}
                             className="h-full lg:h-[280px] w-full object-cover"
-                            placeholder={el.title}
+                            placeholder="blur"
                             width={600}
                             height={300}
                             quality={100}
+                            blurDataURL={el.url}
                             priority
                           />
                         </a>
